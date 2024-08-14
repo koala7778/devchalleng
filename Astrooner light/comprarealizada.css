@@ -1,0 +1,23 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-image: url(https://media2.giphy.com/media/Fbox1ygIqnga5dLinz/giphy.gif);
+    background-size: cover;
+    background-repeat:no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.verificacion{
+    color: white;
+    background-color: rgb(9, 34, 63);
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 30px;
+    display: flex;
+}
+i{
+    color: green;
+    font-size: 300%;
+}

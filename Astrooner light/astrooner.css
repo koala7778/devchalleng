@@ -1,0 +1,231 @@
+header{
+    position: fixed;
+    width: 100%;
+    margin-top: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(https://as1.ftcdn.net/v2/jpg/03/43/11/52/1000_F_343115242_jgrVUf48bhoCwxRCuFG88PA1AldvxFKX.jpg);
+}
+body{
+    margin: 0;
+    background-color: rgb(13, 55, 102);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+header img{
+    height: 70px;
+}
+
+i{
+    color: white;
+    font-size: 30px;
+}
+nav {
+margin-right: 3%;
+}
+
+nav a{
+    margin-right: 30px;
+}
+
+.logo img{
+    display: flex;
+    align-items: center;
+    transition: 1s;
+
+}
+.logo img:hover{
+    transform: scale(1.2);
+}
+.logo h2{
+    font-size: 40px;
+    font-style: italic;
+}
+nav i{
+    transition: 1s;
+}
+
+nav i:hover{
+    font-size: 50px;
+}
+
+.eslogan{
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.eslogan h1{
+    font-size: 450%;
+}
+
+.eslogan h2{
+    margin-right: 10%;
+    font-size: 200%;
+    width: 15%;
+}
+
+.muestra{
+    display: flex;
+    justify-content: center;
+}
+.muestra img{
+    border-radius: 20px;
+    width: 40%;
+}
+.ofrecimiento{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.rendimiento{
+    width: 30%;
+    background-color: rgb(9, 34, 63) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    border-radius: 30px;
+}
+.funciones{
+    width: 30%;
+    background-color: rgb(9, 34, 63) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    border-radius: 30px;
+}
+.completo{
+    width: 30%;
+    background-color: rgb(9, 34, 63) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    border-radius: 30px;
+}
+.completo h4{
+    width: 90%;
+}
+.rendimiento h4{
+    width: 90%;
+}
+.funciones h4{
+    width: 90%;
+}
+.ofrecimiento img{
+   width: 90%;
+    border-radius: 30px;
+}
+.completo img{
+    width: 90%;
+}
+
+.comprar{
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.boton button{
+    color: white;
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-galaxia-acuarela_23-2149231173.jpg);
+    border: none;
+    font-size: 200%;
+    transition: 1s;
+}
+.boton button:hover{
+    background-image: url(https://st2.depositphotos.com/1000123/6758/i/450/depositphotos_67583435-stock-photo-space-and-science-background.jpg);
+}
+
+.redes{
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2%;
+}
+
+.redes i{
+    color: blueviolet;
+}
+
+.opiniones{
+
+    margin-bottom: 2%;
+}
+
+.opiniones img{
+    width: 5%;
+    margin-right: 2%;
+}
+
+.opiniones{
+    display: flex;
+    margin-left: 2%;
+    align-items: center;
+    flex-direction:row;
+    justify-content:space-between;
+    background-color: rgb(9, 34, 63) ;
+    padding: 2%;
+    border-radius: 30px;
+    margin-right: 40%;
+}
+
+.opiniones input{
+    background-color: rgb(9, 34, 63);
+    width: 90%;
+    border: none;
+    color: white;
+    font-size:larger;
+}
+
+h1 {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.opinion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.opiniones button{
+font-size: medium;
+background-color: darkkhaki;
+border: none;
+}
+
+.peloteo{
+    display: flex;
+}
+
+.peloteo p{
+    margin-left: 2%;
+    margin-right: 25%;
+    font-size: 24px;
+}
+
+.peloteo img{
+    margin-right: 2%;
+    width: 22%;
+    border-radius: 200px;
+}
